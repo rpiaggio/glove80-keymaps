@@ -1,6 +1,7 @@
 // NOTE: Use the many #define settings below to customize this keymap!
+// THE .dts.erb IS THE TEMPLATE FILE THAT SHOULD BE EDITED
 #define OPERATING_SYSTEM 'M' // choose 'L'inux, 'M'acOS, or 'W'indows
-#define DIFFICULTY_LEVEL  3  // 0:custom, 1:easy -> 5:hard (see below)
+#define DIFFICULTY_LEVEL  2  // 0:custom, 1:easy -> 5:hard (see below)
 #define ENFORCE_BILATERAL    // cancels single-handed home row mod+tap
 //#define SHIFT_FORGIVENESS  // requires 24.08-beta1 or newer firmware
 #define WORLD_USE_COMPOSE    // use native Compose in place of Unicode
