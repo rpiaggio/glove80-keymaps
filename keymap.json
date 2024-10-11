@@ -159,7 +159,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "EQUAL",
+            "value": "GRAVE",
             "params": []
           }
         ]
@@ -267,7 +267,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "GRAVE",
+            "value": "Q",
             "params": []
           }
         ]
@@ -366,14 +366,19 @@
         "value": "&kp",
         "params": [
           {
-            "value": "Z",
+            "value": "EQUAL",
             "params": []
           }
         ]
       },
       {
-        "value": "&caps_word",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "Z",
+            "params": []
+          }
+        ]
       },
       {
         "value": "Custom",
@@ -466,13 +471,8 @@
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "Q",
-            "params": []
-          }
-        ]
+        "value": "&caps_word",
+        "params": []
       },
       {
         "value": "Custom",

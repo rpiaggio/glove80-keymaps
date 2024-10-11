@@ -1,6 +1,6 @@
 // NOTE: Use the many #define settings below to customize this keymap!
-#define OPERATING_SYSTEM 'L' // choose 'L'inux, 'M'acOS, or 'W'indows
-#define DIFFICULTY_LEVEL  0  // 0:custom, 1:easy -> 5:hard (see below)
+#define OPERATING_SYSTEM 'M' // choose 'L'inux, 'M'acOS, or 'W'indows
+#define DIFFICULTY_LEVEL  3  // 0:custom, 1:easy -> 5:hard (see below)
 #define ENFORCE_BILATERAL    // cancels single-handed home row mod+tap
 //#define SHIFT_FORGIVENESS  // requires 24.08-beta1 or newer firmware
 #define WORLD_USE_COMPOSE    // use native Compose in place of Unicode
@@ -33,8 +33,8 @@
 // which lets you type Unicode characters via hexadecimal codepoints.
 //
 #ifndef OPERATING_SYSTEM
-#define OPERATING_SYSTEM 'L' // linux
-//#define OPERATING_SYSTEM 'M' // macos
+//#define OPERATING_SYSTEM 'L' // linux
+#define OPERATING_SYSTEM 'M' // macos
 //#define OPERATING_SYSTEM 'W' // windows
 #endif
 #if OPERATING_SYSTEM == 'M'
@@ -175,7 +175,7 @@
 #define KEY_RH_C4R1 F8
 #define KEY_RH_C5R1 F9
 #define KEY_RH_C6R1 F10
-#define KEY_LH_C6R2 EQUAL
+#define KEY_LH_C6R2 GRAVE
 #define KEY_LH_C5R2 N1
 #define KEY_LH_C4R2 N2
 #define KEY_LH_C3R2 N3
@@ -187,7 +187,7 @@
 #define KEY_RH_C4R2 N9
 #define KEY_RH_C5R2 N0
 #define KEY_RH_C6R2 BSLH
-#define KEY_LH_C6R3 GRAVE
+#define KEY_LH_C6R3 Q
 #define KEY_LH_C5R3 B
 #define KEY_LH_C4R3 Y
 #define KEY_LH_C3R3 O
@@ -198,8 +198,8 @@
 #define KEY_RH_C3R3 D
 #define KEY_RH_C4R3 W
 #define KEY_RH_C5R3 V
-#define KEY_RH_C6R3 Z
-#define KEY_LH_C6R4 0
+#define KEY_RH_C6R3 EQUAL
+#define KEY_LH_C6R4 Z
 #define KEY_LH_C5R4 C
 #define KEY_LH_C4R4 I
 #define KEY_LH_C3R4 E
@@ -210,7 +210,7 @@
 #define KEY_RH_C3R4 T
 #define KEY_RH_C4R4 S
 #define KEY_RH_C5R4 N
-#define KEY_RH_C6R4 Q
+#define KEY_RH_C6R4 0
 #define KEY_LH_C6R5 LSFT
 #define KEY_LH_C5R5 G
 #define KEY_LH_C4R5 X
